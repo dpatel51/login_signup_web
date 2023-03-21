@@ -3,6 +3,7 @@ const btn = document.querySelector("#register-button");
 const email = document.querySelector("#email");
 const password = document.querySelector("#password");
 
+
 btn.addEventListener("click", async () => {
     console.log('btn1 clicked');
     let name = email.value;
